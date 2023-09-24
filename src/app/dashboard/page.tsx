@@ -1,10 +1,8 @@
 "use client";
 
-import React from "react";
 import { UserButton, useUser } from "@clerk/nextjs";
-type Props = {};
 
-const DashboardPage = (props: Props) => {
+const DashboardPage = () => {
   const user = useUser();
   console.log(user);
   return (

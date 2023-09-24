@@ -1,8 +1,5 @@
 import React from "react";
-
-type Props = {};
-
-const AboutPage = (props: Props) => {
+const AboutPage = () => {
   return <div>AboutPage</div>;
 };
 
